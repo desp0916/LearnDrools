@@ -7,4 +7,4 @@
 
 The follwoing documents are my studying notes of Drools. 
 
-- [Concepts](doc/Concepts_KeyComponents.md)
+- [Concepts](doc/Concepts.md)
