@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="org.kie.api.KieServices" project="LearnDrools" 
+    file="F:/.m2/repository/org/kie/kie-api/6.3.0.Final/kie-api-6.3.0.Final.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="518" y="343"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="2" language="java" name="org.kie.api.runtime.KieContainer" project="LearnDrools" 
+    file="F:/.m2/repository/org/kie/kie-api/6.3.0.Final/kie-api-6.3.0.Final.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="361" y="139"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" language="java" name="org.kie.api.runtime.KieSession" project="LearnDrools" 
+    file="F:/.m2/repository/org/kie/kie-api/6.3.0.Final/kie-api-6.3.0.Final.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="212" y="255"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="4" language="java" name="org.kie.api.KieBase" project="LearnDrools" 
+    file="F:/.m2/repository/org/kie/kie-api/6.3.0.Final/kie-api-6.3.0.Final.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="363" y="255"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="5" language="java" name="org.kie.api.builder.KieModule" project="LearnDrools" 
+    file="F:/.m2/repository/org/kie/kie-api/6.3.0.Final/kie-api-6.3.0.Final.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="212" y="341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="6" language="java" name="org.kie.api.io.KieResources" project="LearnDrools" 
+    file="F:/.m2/repository/org/kie/kie-api/6.3.0.Final/kie-api-6.3.0.Final.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="518" y="468"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="7" language="java" name="org.kie.api.builder.KieRepository" project="LearnDrools" 
+    file="F:/.m2/repository/org/kie/kie-api/6.3.0.Final/kie-api-6.3.0.Final.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="363" y="341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="8" language="java" name="org.kie.api.builder.KieBuilder" project="LearnDrools" 
+    file="F:/.m2/repository/org/kie/kie-api/6.3.0.Final/kie-api-6.3.0.Final.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="362" y="470"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="16">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
