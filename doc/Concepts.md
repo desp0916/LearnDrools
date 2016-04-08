@@ -37,3 +37,7 @@ A `KieModule` is a container of all the resources necessary to define a set of `
 ### KieBuilder
 
 `KieBuilder` is a builder for the resources contained in a `KieModule`.
+
+### KieFileSystem
+
+`KieFileSystem` is an in memory file system used to programmatically define the resources composing a `KieModule`.

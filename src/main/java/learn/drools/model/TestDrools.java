@@ -29,5 +29,6 @@ public class TestDrools {
 //		kfs.writeKModuleXML(kieModuleModel.toXML());
 		kfs.write("src/main/resources/learn/drools/kmodule1.xml", kieModuleModel.toXML());
 		System.out.println(kieModuleModel.toXML());
+		System.out.println(kieServices.getRepository().getDefaultReleaseId());
 	}
 }
